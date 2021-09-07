@@ -30,7 +30,7 @@ int	ft_printf_usigned(t_print *tab, va_list *argp)
 
 int	ft_printf_num(t_print *tab, unsigned long u)
 {
-	char			buf[(sizeof(long int)*8)];
+	char			buf[(sizeof(long int) * 8)];
 	register char	*p;
 	static char		digits[] = "0123456789abcdef0123456789ABCDEF";
 	int				ret;
